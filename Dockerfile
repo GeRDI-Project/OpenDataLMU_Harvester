@@ -3,4 +3,11 @@
 FROM docker-registry.gerdi.research.lrz.de:5043/harvest/oaipmh:0.2.6
 
 COPY config.json $JETTY_BASE/cache/OaipmhHarvesterService/config.json
+
+USER root
+RUN apk update && apk add ca-certificates && rm -rf /var/cache/apk/*
+COPY dfn-ca.crt.pem /usr/local/share/ca-certificates/dfn-ca.crt
+RUN update-ca-certificates
+USER jetty
+
 EXPOSE 8080
