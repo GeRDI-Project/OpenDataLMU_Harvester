@@ -1,6 +1,6 @@
 # GeRDI Harvester Image for Open Data LMU (OAI-PMH) Harvesters
 
-FROM docker-registry.gerdi.research.lrz.de:5043/harvest/oaipmh:0.2.6
+FROM docker-registry.gerdi.research.lrz.de:5043/harvest/oai-pmh:0.3.0-test2
 
 COPY config.json $JETTY_BASE/cache/OaipmhHarvesterService/config.json
 
