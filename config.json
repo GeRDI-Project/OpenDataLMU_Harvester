@@ -1,1 +1,1 @@
-{"globalParameters":{"persistCache": false},"harvesterParameters":{"from":"","until":"","hostUrl":"https://data.ub.uni-muenchen.de/cgi/oai2","metadataPrefix":"datacite"}}
+{"OaiPmhETL":{"parameters":[{"key":"hostUrl","value":"https://data.ub.uni-muenchen.de/cgi/oai2","type":"StringParameter"},{"key":"logoUrl","value":"http://cis.uni-muenchen.de/~anne/files/logo.png","type":"StringParameter"},{"key":"metadataPrefix","value":"datacite","type":"StringParameter"}]}}
