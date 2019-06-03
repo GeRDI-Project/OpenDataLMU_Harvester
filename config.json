@@ -1,1 +1,30 @@
-{"OaiPmhETL":{"parameters":[{"key":"hostUrl","value":"https://data.ub.uni-muenchen.de/cgi/oai2","type":"StringParameter"},{"key":"logoUrl","value":"http://cis.uni-muenchen.de/~anne/files/logo.png","type":"StringParameter"},{"key":"metadataPrefix","value":"datacite","type":"StringParameter"}]}}
+{
+    "Submission": {
+        "parameters": [
+            {
+                "key": "url",
+                "value": "http://elasticsearch-data.default.svc.cluster.local:9200/gerdi/metadata",
+                "type": "StringParameter"
+            }
+        ]
+    },
+    "OaiPmhETL": {
+        "parameters": [
+            {
+                "key": "hostUrl",
+                "type": "StringParameter",
+                "value": "https://data.ub.uni-muenchen.de/cgi/oai2"
+            },
+            {
+                "key": "logoUrl",
+                "type": "StringParameter",
+                "value": "http://cis.uni-muenchen.de/~anne/files/logo.png"
+            },
+            {
+                "key": "metadataPrefix",
+                "type": "StringParameter",
+                "value": "datacite"
+            }
+        ]
+    }
+}
